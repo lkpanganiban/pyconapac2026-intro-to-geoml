@@ -2,11 +2,13 @@
 # Install with: pip install -r requirements.txt
 
 geopandas
+fiona
 rasterio
 matplotlib
 shapely
 numpy
 leafmap
+folium
 pydeck
 
 # For notebook 03 (instance segmentation)
