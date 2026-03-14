@@ -1,0 +1,42 @@
+===============================================
+RIVER ENCROACHMENT ANALYSIS REPORT
+===============================================
+
+ANALYSIS PARAMETERS
+-------------------
+Buffer Distance: 6 meters
+Study Area: Test raster imagery
+CRS: EPSG:26911
+
+BUILDING DETECTION RESULTS
+--------------------------
+Total Buildings Detected: 320
+Total Building Area: 76384.1 m²
+Average Building Size: 238.7 m²
+
+RISK ASSESSMENT
+---------------
+Buildings in Flood Risk Zone (<=6m): 16
+Percentage of Buildings at Risk: 5.0%
+Total Area at Risk: 8683.2 m²
+
+RISK BREAKDOWN
+--------------
+  Low Risk (>15m): 287 buildings (89.7%)
+  Medium Risk (7-15m): 17 buildings (5.3%)
+  High Risk (<=6m): 16 buildings (5.0%)
+
+RECOMMENDATIONS 
+---------------
+1. Prioritize inspection of 16 buildings in the 6m buffer zone
+2. Consider flood mitigation measures for high-risk structures
+3. Monitor medium-risk buildings (7-15m) during heavy rainfall events
+4. Update building inventory with ground-truth verification
+
+OUTPUT FILES
+------------
+- At-risk buildings: at_risk_buildings.geojson
+- All detected buildings: detected_buildings.geojson
+- Prediction raster: test_prediction.tif
+
+===============================================
