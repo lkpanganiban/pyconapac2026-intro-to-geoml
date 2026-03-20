@@ -9,7 +9,8 @@ A beginner-friendly Jupyter notebook series covering geospatial data fundamental
 | ---------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
 | [01_geospatial_data_intro.ipynb](notebooks/01_geospatial_data_intro.ipynb)                                                         | CRS, vector, raster, spatial extent, basemaps; leafmap visualization |
 | [02_geospatial_visualization_python.ipynb](notebooks/02_geospatial_visualization_python.ipynb)                                     | Raster, vector, combined, and 3D visualization with leafmap          |
-| [03_geospatial_machine_learning_instance_segmentation.ipynb](notebooks/03_geospatial_machine_learning_instance_segmentation.ipynb) | U-Net semantic segmentation (building detection) with GeoAI          |
+| [03_geospatial_machine_learning_semantic_segmentation.ipynb](notebooks/03_geospatial_machine_learning_semantic_segmentation.ipynb) | U-Net semantic segmentation (building detection) with GeoAI          |
+| [04_synthesis.ipynb](notebooks/04_synthesis.ipynb)                                                                                  | End-to-end project: River encroachment analysis combining all concepts |
 
 
 ## Prerequisites: Install Miniconda (conda)
@@ -60,8 +61,8 @@ After installing, close and reopen your terminal (or run `source ~/.bashrc` or `
 
 ```bash
 # Create and activate a conda environment (recommended)
-conda create -n pycon2026 python=3.11
-conda activate pycon2026
+conda create -n pythonasia2026 python=3.11
+conda activate pythonasia2026
 
 # Install dependencies
 pip install -r requirements.txt
@@ -79,7 +80,7 @@ jupyter notebook notebooks/
 ## Project Structure
 
 ```
-pycon2026/
+pythonasia2026-intro-to-geoml/
 ├── notebooks/           # Jupyter notebooks
 ├── data/                # Downloaded data and outputs (created on first run)
 ├── requirements.txt
